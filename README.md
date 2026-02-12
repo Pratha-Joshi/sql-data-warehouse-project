@@ -55,20 +55,28 @@ The goal is to bridge the gap between raw operational data and business intellig
 
 The warehouse follows a layered Medallion Architecture to progressively refine data quality and usability.
 
-### 🟫 Bronze Layer – Raw Data
+### 🥉 Bronze Layer – Raw Data
 - Stores raw retail CSV files
 - Minimal transformations applied
 - Serves as immutable source layer
 
-### 🟩 Silver Layer – Cleaned & Standardized Data
+### 🥈 Silver Layer – Cleaned & Standardized Data
 - Data cleaning and validation
 - Standardization of formats and data types
 - Deduplication and normalization
 - Ensures data consistency before modeling
 
-### 🟨 Gold Layer – Analytics-Ready Model
+### 🥇 Gold Layer – Analytics-Ready Model
 - Dimensional modeling using Star Schema
 - Creation of Fact and Dimension tables
 - Optimized for reporting and business queries
 
 This layered approach ensures data quality, maintainability, and scalability.
+
+---
+
+## 📚 Dataset Source
+
+The retail dataset used in this project was obtained from a publicly available SQL Data Warehouse tutorial by Data With Baraa.  
+The end-to-end warehouse design, ETL pipelines, dimensional modeling, and documentation were implemented independently to strengthen practical understanding of data engineering concepts.
+
